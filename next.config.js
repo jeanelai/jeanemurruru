@@ -91,11 +91,3 @@ module.exports = () => {
     },
   })
 }
-
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: 'export',
-  reactStrictMode: true,
-  assetPrefix: 'https://jeanelai.github.io/ycmurruru/'
-}
-export default nextConfig
